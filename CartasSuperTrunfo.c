@@ -31,110 +31,110 @@ int main() {
     printf("Confirme as informacoes para continuarmos o cadastro: \n");
     printf("a cidade cadastrada e: %s\nO estado cadastrado e: %s\nO país cadastrado e: %s\n", cidade, estado, pais);
     printf("Precisa alterar alguma informacao? 1 para sim/0 para nao\n");
-    scanf("%d", &opcao);
+    scanf("%d", opcao);
 
      //loop de atualização de informação
         while (opcao >= 1)
         {
             printf("---- FORMULACAO DA CARTA ----\n");
             printf("Informe qual e o numero populacional referente a essa cidade: \n");
-            scanf("%d", &Populacao);
+            scanf("%d", Populacao);
 
             printf("Informe qual e o PIB dessa cidade: \n");
-            scanf("%f", &pib);
+            scanf("%f", pib);
 
             printf("Informe qual a area dessa cidade: \n");
-            scanf("%f", &area);
+            scanf("%f", area);
 
             printf("Informe qual e a quantidade de pontos turistios na cidade: \n");
-            scanf("%d", &qtdpturistico);
+            scanf("%d", qtdpturistico);
 
             printf("Confirme as informacoes para continuarmos o cadastro: \n");
             printf("O numero populacional e: %d\nO PIB e: %f\nA area e: %f m³\nA cidae possue %d pontos turisticos\n", Populacao, pib, area, qtdpturistico); 
             printf("Precisa alterar alguma informacao? 1 para sim/0 para nao\n");
-            scanf("%d", &opcao);
+            scanf("%d", opcao);
         }
     //loop de novo cadastro
 
     printf("Deseja realizar mais um cadastro? 1 para sim/0 para nao");
-    scanf("%d", &opcao);
+    scanf("%d", opcao);
         while(opcao >= 1)
         {
                 //Coleta das informaçoes cadastrais
             printf("---- CADASTRO DE CIDADES ----\n");
             printf("Digite o nome da cidade: \n");
-            scanf("%s", &cidade);
+            scanf("%s", cidade);
 
             printf("Digite o nome da federacao a que essa cidade pertence: \n");
-            scanf("%s", &estado);
+            scanf("%s", estado);
 
             printf("Digite o nome do pais referente a essa cidade: \n");
-            scanf("%s", &pais);
+            scanf("%s", pais);
 
             printf("Confirme as informacoes para continuarmos o cadastro: \n");
             printf("a cidade cadastrada e: %s\nO estado cadastrado e: %s\nO pais cadastrado e: %s\n", cidade, estado, pais);
             printf("Precisa alterar alguma informacao? 1 para sim/0 para nao\n");
-            scanf("%d", &opcao);
+            scanf("%d", opcao);
                 while (opcao >= 1)
                 {
                     printf("---- CADASTRO DE CIDADES ----\n");
                     printf("Digite o nome da cidade: \n");
-                    scanf("%s", &cidade);
+                    scanf("%s", cidade);
 
                     printf("Digite o nome da federacao a que essa cidade pertence: \n");
-                    scanf("%s", &estado);
+                    scanf("%s", estado);
 
                     printf("Digite o nome do pais referente a essa cidade: \n");
-                    scanf("%s", &pais);
+                    scanf("%s", pais);
 
                     printf("Confirme as informacoes para continuarmos o cadastro: \n");
                     printf("a cidade cadastrada e: %s\nO estado cadastrado e: %s\nO país cadastrado e: %s\n", cidade, estado, pais); 
                     printf("Precisa alterar alguma informacao? 1 para sim/0 para nao\n");
-                    scanf("%d", &opcao); 
+                    scanf("%d", opcao); 
                 }
                 
         //Coleta dos dados de comparações
             printf("---- FORMULACAO DA CARTA ----\n");
             printf("Informe qual e o numero populacional referente a essa cidade: \n");
-            scanf("%d", &Populacao);
+            scanf("%d", Populacao);
 
             printf("Informe qual e o PIB dessa cidade: \n");
-            scanf("%f", &pib);
+            scanf("%f", pib);
 
             printf("Informe qual a area dessa cidade: \n");
-            scanf("%f", &area);
+            scanf("%f", area);
 
             printf("Informe qual e a quantidade de pontos turistios na cidade: \n");
-            scanf("%d", &qtdpturistico);
+            scanf("%d", qtdpturistico);
 
             printf("Confirme as informacoes para continuarmos o cadastro: \n");
             printf("O numero populacional e: %d\nO PIB e: %f\nA area e: %f m³\nA cidae possue %d pontos turisticos\n", Populacao, pib, area, qtdpturistico); 
             printf("Precisa alterar alguma informação? 1 para sim/0 para nao\n");
-            scanf("%d", &opcao); 
+            scanf("%d", opcao); 
                 while (opcao >= 1)
                 {
                     printf("---- FORMULACAO DA CARTA ----\n");
                     printf("Informe qual e o numero populacional referente a essa cidade: \n");
-                    scanf("%d", &Populacao);
+                    scanf("%d", Populacao);
 
                     printf("Informe qual e o PIB dessa cidade: \n");
-                    scanf("%f", &pib);
+                    scanf("%f", pib);
 
                     printf("Informe qual a area dessa cidade: \n");
-                    scanf("%f", &area);
+                    scanf("%f", area);
 
                     printf("Informe qual e a quantidade de pontos turistios na cidade: \n");
-                    scanf("%d", &qtdpturistico);
+                    scanf("%d", qtdpturistico);
 
                     printf("Confirme as informacoes para continuarmos o cadastro: \n");
                     printf("O numero populacional e: %d\nO PIB e: %f\nA area e: %f m³\nA cidae possue %d pontos turisticos\n", Populacao, pib, area, qtdpturistico); 
                     printf("Precisa alterar alguma informação? 1 para sim/0 para nao\n");
-                    scanf("%d", &opcao);
+                    scanf("%d", opcao);
                     printf("Deseja realizar mais um cadastro? 1 para sim/0 para nao\n");
-                    scanf("%d", &opcao);
+                    scanf("%d", opcao);
         }
 
         
-        printf("cadastro concluido com sucesso!\n");
+        printf("cadastro concluido com sucesso\n");
         return 0;
- }
+     }
