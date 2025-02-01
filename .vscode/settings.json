@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "AVANCADO.C": "cpp"
+        "AVANCADO.C": "cpp",
+        "DESAFIO_MESTRE.C": "cpp"
     }
 }
